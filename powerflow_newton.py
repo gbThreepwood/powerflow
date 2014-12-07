@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-##
+# -*- coding: utf-8 -*-
 # vim:sw=8:ts=8:si:et
 # To use the above modeline in vim you must have "set modeline" in your .vimrc
 #
@@ -39,8 +39,25 @@ __status__ = "Development"
 
 
 import numpy as np
+"""
+Implements a powerflow computation algorithm based on Newtons iterative method.
 
+"""
 a = np.arange(16).reshape((4,4))
 b = np.arange(4)
 
 print np.dot(a,b)
+
+
+iteration = 1
+maximum_iterations = 20
+converged = False
+
+while (not converged):
+   if iteration >= maximum_iterations:
+      print 'Failed to converge in ', iteration, ' iterations.'
+      break
+  
+   print 'Performing iteration: ', iteration
+  
+   iteration = iteration + 1
