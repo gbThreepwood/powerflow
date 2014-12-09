@@ -1,2 +1,3 @@
-Implement power flow based on newtons iterative method.
-Implemen optimal power flow based on the reduced gradient method.
+* Implement power flow based on newtons iterative method.
+* Implement optimal power flow based on the reduced gradient method.
+* Implement GUI for the design of network drawings.
