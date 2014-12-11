@@ -1,3 +1,7 @@
+
 * Implement power flow based on newtons iterative method.
 * Implement optimal power flow based on the reduced gradient method.
+
+* Economic dispatch feature
+
 * Implement GUI for the design of network drawings.
